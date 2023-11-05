@@ -54,6 +54,7 @@ echo ">_ Install NPM dependencies ..."
 npm install
 
 echo ">_ Clean cache files ..."
+npm config set unsafe-perm true
 npx hexo clean
 
 echo ">_ Generate file ..."
