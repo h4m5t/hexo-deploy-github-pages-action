@@ -2,6 +2,10 @@
 
 This GitHub action for building and deploying Hexo project to GitHub pages.
 
+使用GitHub Actions自动化构建博客，具体请看：
+
+https://h4m5t.top/2022/12/30/hello-hexo/
+
 ## Getting Started
 
 You can view an example of this below.
