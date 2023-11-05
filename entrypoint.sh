@@ -53,19 +53,11 @@ done
 echo ">_ Install NPM dependencies ..."
 npm install
 
+echo ">_ Clean cache files ..."
+npx hexo clean
 
-echo ">_ h4m5t Clean folder ..."
-./node_modules/hexo/bin/hexo clean
-
-echo ">_ h4m5t Generate file ..."
-./node_modules/hexo/bin/hexo generate 
-
-#echo ">_ Clean cache files ..."
-#npm config set unsafe-perm true
-#npx hexo clean
-
-#echo ">_ Generate file ..."
-#npx hexo generate
+echo ">_ Generate file ..."
+npx hexo generate
 
 cd "${TARGET_PUBLISH_DIR}"
 
