@@ -1,5 +1,6 @@
 # Use Node.js container image
-FROM node:16
+# 自动部署报错了，将Dockerfile中的基础镜像从 node:16 升级到更新的版本
+FROM node:18
 
 # Install Git
 RUN apt-get update && apt-get install -y git
